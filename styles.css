@@ -1,0 +1,14 @@
+html,
+body {
+}
+
+h2 {
+  color: #2f4f4f;
+  font-weight: bold;
+}
+p {
+  color: #696969;
+  font-optical-sizing: auto;
+  font-size: Larger;
+  font-family: "Edu QLD Beginner", cursive;
+}
