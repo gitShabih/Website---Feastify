@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en" >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=swap" rel="stylesheet">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,108 +18,119 @@
       href="./files/—Pngtree—cookie clipart chocolate bean butter_5528118.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles-for-Feastify.css" />
     <title>Feastify - Happy Fooding</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <img
-          src="./files/—Pngtree—cookie clipart chocolate bean butter_5528118.png"
-          alt="feastify-logo"
-          height="60px"
-        />
-        <a class="navbar-brand" href="#">Feastify</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Dining Out</a></li>
-                <li><a class="dropdown-item" href="#">Order Online</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Confused!? Let us help</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
-      <h1 class="display-4 fw-bold text-body-emphasis">Welcome Foodie!!</h1>
-      <div class="col-lg-6 mx-auto">
-        <p class="lead mb-4">
-          Quickly design and customize responsive mobile-first sites with
-          Bootstrap, the world’s most popular front-end open source toolkit,
-          featuring Sass variables and mixins, responsive grid system, extensive
-          prebuilt components, and powerful JavaScript plugins.
-        </p>
-        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
-            Primary button
-          </button>
-          <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            Secondary
-          </button>
-        </div>
-      </div>
-      <div class="overflow-hidden" style="max-height: 30vh">
-        <div class="container px-5">
+    
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" id="bg">
+        <div class="container-fluid">
           <img
-            src="./files/top-view-eid-al-fitr-celebration-with-delicious-food_23-2151205103.jpg"
-            class="img-fluid border rounded-3 shadow-lg mb-4"
-            alt="Example image"
-            width="700"
-            height="auto"
-            loading="lazy"
+            src="./files/—Pngtree—cookie clipart chocolate bean butter_5528118.png"
+            alt="feastify-logo"
+            height="60px"
           />
+          <a class="navbar-brand" href="#">Feastify</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Dining Out</a></li>
+                  <li><a class="dropdown-item" href="#">Order Online</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Confused!? Let us help</a>
+                  </li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-section">
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis" >Welcome Foodie!!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+              Dining In
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Dining Out
+            </button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh">
+          <div class="container px-5">
+            <img
+              src="./files/top-view-eid-al-fitr-celebration-with-delicious-food_23-2151205103.jpg"
+              class="img-fluid border rounded-3 shadow-lg mb-4"
+              alt="Example image"
+              width="700"
+              height="auto"
+              loading="lazy"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    
 
     <!-- Carousel -->
+
+    <h2 style="text-align: center;">Confused What to Eat? Don't worry! We’ve got you covered! </h2>
+    <hr>
+    <p style="text-align: center;">With our extensive menu featuring a delicious array of options, you’re sure to find something that satisfies your cravings. From hearty classics to trendy new dishes, our offerings cater to every taste. <br>
+
+      Feeling adventurous? Try one of our chef’s specials! Prefer something familiar? Our comfort food selections will hit the spot. Plus, we have options for every dietary preference, whether you’re non-vegetarian, vegetarian, vegan, or gluten-free!</p>
+    <hr>
+    <br>
+    <br>
+
     <div class="container">
       <div id="carouselExampleCaptions" class="carousel slide" height="">
         <div class="carousel-indicators">
@@ -203,6 +218,7 @@
     </div>
 
     <!-- Features -->
+    <div class="container">
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="col d-flex align-items-start">
         <div
@@ -288,10 +304,12 @@
         </div>
       </div>
     </div>
+  </div>
 
     <!-- Subscription Pricing  -->
 
     <!-- Footers -->
+     <div class="container">
     <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
@@ -380,13 +398,12 @@
       <div
         class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
       >
-        <p>© 2024 , Inc. All rights reserved.</p>
+        <p>© 2024 <a href="https://gitshabih.github.io/Portfolio/">The Fantastic Devs</a>., Inc. All rights reserved.</p>
         <ul class="list-unstyled d-flex">
           <li class="ms-3">
             <a class="link-body-emphasis" href="#"
               ><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter"></use></svg
-            ></a>
+                <use xlink:href="#twitter"></use></svg></a>
           </li>
           <li class="ms-3">
             <a class="link-body-emphasis" href="#"
@@ -405,6 +422,7 @@
         </ul>
       </div>
     </footer>
+  </div>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
